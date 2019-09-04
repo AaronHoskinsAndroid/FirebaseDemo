@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirebaseDemo</string>
+    <string name="please_enter_user_email">Please Enter User Email</string>
+    <string name="please_enter_user_password">Please Enter User Password</string>
+    <string name="no_user_signed_in">NO USER SIGNED IN</string>
+    <string name="create_a_new_account">Create A New Account</string>
+    <string name="sign_into_account">Sign Into Account</string>
+    <string name="sign_off">Sign Off</string>
+</resources>

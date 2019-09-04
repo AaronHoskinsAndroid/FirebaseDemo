@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_enter_user_email"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:id="@+id/etUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/please_enter_user_password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/btnSignIntoAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_into_account"
+        android:onClick="onSignInClicked"/>
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_a_new_account"
+        android:onClick="onCreateAccountClicked"/>
+
+    <Button
+        android:id="@+id/btnSignOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_off"
+        android:onClick="onSignOffClicked"/>
+
+    <TextView
+        android:id="@+id/tvCurrentSignedInUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_user_signed_in"/>
+
+</LinearLayout>
